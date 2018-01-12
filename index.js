@@ -25,26 +25,9 @@ function dec(n){
 }
 
 function makeInt(n){
-  n = "0"
-  return parseInt(n)
-}
-
-function  makeInt(n){
-  n = "0"
   return parseInt(n, 10)
 }
 
-function makeInt(n){
-  n = 'Whoop'
-  return parseInt(n)
-}
-
 function preserveDecimal(n){
   return parseFloat(n)
 }
-
-function preserveDecimal(n){
-  n = 'Whoop'
-  return parseFloat(n)
-}
-
