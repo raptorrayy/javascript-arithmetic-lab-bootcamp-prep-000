@@ -15,33 +15,36 @@ function divide(a, b){
 }
 
 function inc(n){
-  return n++
-}
-
-function dec(n){
-  return n--
-}
-
-function makeInt(n){
-  parseInt(n)
+  n++
   return n
 }
 
+function dec(n){
+  n--
+  return n
+}
+
+function makeInt(n){
+  n = "0"
+  return parseInt(n)
+}
+
 function  makeInt(n){
-  parseInt(n, 10)
+  n = "0"
+  return parseInt(n, 10)
 }
 
 function makeInt(n){
   n = 'Whoop'
-  parseInt(n)
+  return parseInt(n)
 }
 
 function preserveDecimal(n){
-  parseFloat(n)
+  return parseFloat(n)
 }
 
 function preserveDecimal(n){
   n = 'Whoop'
-  parseFloat(n)
+  return parseFloat(n)
 }
 
